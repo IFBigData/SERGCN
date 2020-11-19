@@ -50,7 +50,7 @@ args = parser.parse_args()
 args.cuda = torch.cuda.is_available()
 if args.manualSeed is None or args.manualSeed < 0:
     args.manualSeed = random.randint(1, 10000)
-args.log_filename = args.log_filename[:-4]+'_{}.txt'.format(args.manualSeed)
+args.log_filename = args.log_filename.split('.')[0]+'_{}.txt'.format(args.manualSeed)
 
 # FileHandler
 file_handler = logging.FileHandler(args.log_filename)
