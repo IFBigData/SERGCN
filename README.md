@@ -1,7 +1,7 @@
 # Code for SERGCN
 Here we present the codes of SERGCN.
 
-The codes and the parameters can be downloaded from Baidu Yun 
+The codes and the parameters can be downloaded from [Google Drive](https://drive.google.com/file/d/1pIe99jU7RoYnHYGuAn1dKV6_KXVlPA-B/view?usp=sharing) 
 
 python version is 3.6.9
 
