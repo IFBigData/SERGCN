@@ -19,11 +19,12 @@ class SERGCN(nn.Module):
     def forward(self, rois_feature, union_feat, full_mask):
 
         feat_body = rois_feature[:, :-2, :]
-        feat_img_1 = union_feat[:, :-1, :-1, :]
-        feat_img_2 = rois_feature[:, -2, :]
+        feat_img_1 = union_feat[:, :-1, :-1, :]  # feature union
+        feat_img_2 = rois_feature[:, -2, :]  # image feature I
 
         feat_img_ssl = rois_feature[:, -1, :]
         feat_img = [feat_img_1, feat_img_2]
+
         graph_scores = self.rgcn(feat_body, feat_img, feat_img_ssl, full_mask)
         return graph_scores
 

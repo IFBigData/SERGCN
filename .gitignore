@@ -1,2 +1,4 @@
 *.npy
 *.pth
+*.pyc
+log_info_1.txt
