@@ -28,7 +28,7 @@ parser.add_argument('--num-workers',  default=2, type=int,
                    help='number of load data workers (default: 2)')
 parser.add_argument('--save-model', type=str, default='./Save_Model/',
                         help='where you save model')
-parser.add_argument('--lr', type=float, default=0.00002,
+parser.add_argument('--lr', type=float, default=5e-5,
                     help='fc layer learning rate (default: 0.00002)')
 parser.add_argument('--max-epochs', type=int, default=20, metavar='N',
                     help='number of epochs to train (default: 20)')
@@ -45,6 +45,13 @@ parser.add_argument('--dataset', type=str, default='pipa_fine',
 
 parser.add_argument('--regenerate-roifeat', action='store_true', default=False)
 parser.add_argument('--log-filename', type=str, default='log_info.txt')
+
+
+parser.add_argument('--factor', type=float, default=0.5,
+                    help='factor')
+parser.add_argument('--patience',  default=5, type=int,
+                    metavar='N', help='patience default 5')
+
 
 args = parser.parse_args()
 args.cuda = torch.cuda.is_available()
