@@ -1,7 +1,7 @@
 # Code for SERGCN
-Here we present the codes of SERGCN.
+Here we present the codes of SERGCN. The paper can be found [here](https://github.com/IFBigData/SERGCN/blob/master/CVPR_2021_submission.pdf).
 
-The codes and the parameters can be downloaded from [Google Drive](https://drive.google.com/file/d/1pIe99jU7RoYnHYGuAn1dKV6_KXVlPA-B/view?usp=sharing) 
+The codes and the parameters can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1AhzIF6kltDDoRgztt9FR8OC3WM9xShWW?usp=sharing) 
 
 python version is 3.6.9
 
