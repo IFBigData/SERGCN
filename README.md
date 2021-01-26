@@ -1,5 +1,5 @@
 # Code for SERGCN
-Here we present the codes of SERGCN. The paper can be found [here](https://github.com/IFBigData/SERGCN/blob/master/CVPR_2021_submission.pdf).
+Here we present the codes of SERGCN. The paper can be found [here](https://github.com/IFBigData/SERGCN/blob/master/8168paper.pdf).
 
 The codes and the parameters can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1AhzIF6kltDDoRgztt9FR8OC3WM9xShWW?usp=sharing) 
 
